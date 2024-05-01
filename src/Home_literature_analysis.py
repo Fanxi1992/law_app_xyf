@@ -74,10 +74,10 @@ def create_QA_chain():
 
 def get_pinecone_connection():
     # 获取每个人的上传文献的文件名称列表
-    panjiao_docs = get_doc_names("panjiao")
+    xuyafan_docs = get_doc_names("xuyafan")
 
 
-    return [panjiao_docs]
+    return [xuyafan_docs]
 
 
 def get_response(chain, user_query, full_context,literature_histoty):
